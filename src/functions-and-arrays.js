@@ -216,7 +216,7 @@ function howManyTimes(wordsArr) {
   const mapaPalabras = new Map(); // cria un nuevo map() ---- que es el mapa
 
   for (let i = 0; i < wordsArr.length; i++) {
-    let contadorPalabra = mapaPalabras.get(wordsArr[i]); // get ???
+    let contadorPalabra = mapaPalabras.get(wordsArr[i]); //  El método "get" (obtener) se utiliza para recuperar o acceder al valor de una variable privada en un objeto.
 
     if (contadorPalabra == undefined) {
       mapaPalabras.set(wordsArr[i], 1); // set ??
@@ -417,3 +417,14 @@ if (typeof module !== "undefined") {
     greatestProduct,
   };
 }
+
+/*    subir a git hub
+
+1 - git init
+2 - git status
+3 - git add .
+4 - git status
+5 - git commit -m "new commit 01"
+6 - git push origin master
+
+*/
